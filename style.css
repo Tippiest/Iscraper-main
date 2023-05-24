@@ -1,0 +1,49 @@
+body{
+    background-color: #181717;
+}
+
+.content{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 90%;
+    max-width: 900px;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #fff;
+    padding-top: 50px;
+    font-size: 65px;
+}
+
+.content h1{
+    font-size: 90x;
+    font-weight: 600;
+    margin-bottom: 40;
+}
+
+.content form{
+    background: #fff;
+    padding: 10px;
+    border-radius: 8px;
+    display: flex;
+}
+
+.content form input{
+    flex: 1;
+    border: none;
+    outline: none;
+    padding: 0 20px;
+    font-size: 18px;
+}
+.content form button{
+    background: #0c990c;
+    color: #fff;
+    padding: 15px 40px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background 0.5s;
+}
+.content form button:hover{
+    background: #0ec50e;
+}

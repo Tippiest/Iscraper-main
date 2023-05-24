@@ -1,0 +1,28 @@
+{
+
+    "manifest_version": 3,
+    "name": "Iscraper",
+    "description": "download all images on a webpage google search",
+    "version": "1.0",
+    "icons" : {
+        "16": "",
+        "48": "",
+        "128": ""
+    },
+    "page_action":{
+        "default_icon": {
+            "16":"",
+            "48":"",
+            "128":""
+        }
+    },
+    "content_scripts":[{
+        "matches": ["https://google.com/search*"],
+        "js": ["app.js"]
+    }],
+
+    "permission": [
+        "downloads",
+        "tabs"
+    ]
+}
